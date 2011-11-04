@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript MVC Notebook</title>
+  <script type="text/javascript" src="notebook.js"></script>
+</head>
+<body>
+
+	<div id="wrapper">
+		<h1>Javascript MVC Application - NoteBook</h1>
+		<div id="message"></div>
+		<div id="new_note_wrapper"></div>
+		<div id="list_wrapper"></div>
+	</div>
+	
+	<script type="text/javascript">
+		var controller = NoteController();
+		controller.displayNoteList();
+	</script>
+
+</body>
+</html>
